@@ -1,0 +1,4 @@
+name: TensorIterator-Examples
+dependencies:
+  - python
+  - cmake
