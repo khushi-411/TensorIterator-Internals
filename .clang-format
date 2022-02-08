@@ -1,0 +1,8 @@
+---
+AlignOperands:   false
+ColumnLimit:     80
+IndentWidth:     2
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+TabWidth:        8
+---
