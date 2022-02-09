@@ -1,4 +1,4 @@
-name: TensorIterator-Examples
+name: TensorIterator-Dev
 channels:
   - conda-forge
 dependencies:
