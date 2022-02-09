@@ -3,11 +3,8 @@
 namespace at {
 namespace native {
 namespace {
-static void lerp_kernel(
-    Tensor& ret,
-    const Tensor& self,
-    const Tensor& end,
-    Scalar weight) {
+static void lerp_kernel(Tensor &ret, const Tensor &self, const Tensor &end,
+                        Scalar weight) {
   auto builder = at::TensorIterator::Builder();
   builder.add_output(ret);
   builder.add_input(self);
@@ -27,6 +24,6 @@ static void lerp_kernel(
         },
         [=](Vec256<scalar_t> start_vec, Vec256<scalar_t> end_vec) {
           return reversed_weight_vec * start_vec + weight_vec * end_vec;
-	 });
+        });
   });
 }
