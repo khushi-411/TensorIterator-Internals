@@ -12,8 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python ${{matrix.python-version}}
-        uses: actions/setup-python@v2
+      - uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: TensorIterator-Examples
           environment-file: emvironment.yml
