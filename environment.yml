@@ -1,4 +1,6 @@
 name: TensorIterator-Examples
+channels:
+  - conda-forge
 dependencies:
   - python
   - cmake

@@ -16,4 +16,3 @@ jobs:
         with:
           activate-environment: TensorIterator-Examples
           environment-file: emvironment.yml
-          python-version: ${{matrix.python-version}}
