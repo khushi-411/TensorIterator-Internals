@@ -16,7 +16,7 @@ jobs:
         with:
           miniconda-version: "latest"
           activate-environment: TensorIterator-Dev
-          environment-file: emvironment.yml
+          environment-file: environment.yml
           auto-activate-base: true
           python-version: ${{ matrix.python-version }}
       - run: |
