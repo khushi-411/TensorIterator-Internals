@@ -1,0 +1,24 @@
+name: ci-test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          miniconda-version: "latest"
+          activate-environment: TensorIterator-Dev
+          environment-file: environment.yml
+          auto-activate-base: true
+          python-version: ${{ matrix.python-version }}
+      - run: |
+          conda info
+          conda list

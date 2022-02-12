@@ -1,0 +1,6 @@
+name: TensorIterator-Dev
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - cmake
