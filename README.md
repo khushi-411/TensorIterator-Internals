@@ -1,7 +1,7 @@
 # TensorIterator-Internals
 
 The repository consists of a couple of examples of TensorIterator
-Internals and their basic concepts. 
+and their basic concepts. 
 
 You can check out my blog post on the same.
 Link to my Blog: [TensorIterator-Internals](https://khushi-411.github.io/TensorIterator-Internals/)
