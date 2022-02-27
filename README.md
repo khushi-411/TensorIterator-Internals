@@ -12,7 +12,7 @@ Miniconda
 gcc/g++
 ```
 
-#### Other Informative Blog Posts I refered:
+#### Informative Blog Posts I refered:
 
 1. [TensorIterator Internals](https://pytorch-dev-podcast.simplecast.com/episodes/tensoriterator) by Edward Z. Yang.
 2. [PyTorch TensorIterator Internals](https://labs.quansight.org/blog/2020/04/pytorch-tensoriterator-internals/index.html) by Sameer Deshmukh.
